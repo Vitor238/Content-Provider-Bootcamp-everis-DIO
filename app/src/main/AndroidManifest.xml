@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationContentProvider">
         <provider
-            android:name=".NotesProvider"
-            android:authorities="applicationcontentprovider.provider"
+            android:name=".database.NotesProvider"
+            android:authorities="com.vitor238.applicationcontentprovider.provider"
             android:enabled="true"
             android:exported="true" />
 
